@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif;
+    background-color: #fbfbfb;
+    height: 100%;
+    overflow-x: hidden;
+}
+/* Header */
+.mother-container {
+    width: 100vw;
+}
+.Dopos-name {
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+}
+nav {
+    width: 40vw;
+    border: 1px solid gainsboro;
+    }
+nav a:before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 0;
+    background: transparent;
+    border: 1px solid transparent;
+    margin-top:33px;
+}
+nav a:hover:before {
+    animation: animate 100ms linear forwards;
+}
+.log-in-btn i{
+    background-color: bisque;
+    border: 1px solid #f9694f;
+    border-radius: 100%;
+    padding: 5px;
+}  
+.toys {
+    width: 50vw;
+    float: right;
+}
+
+.left-container {
+    width: 40vw;
+}
+.text {
+    font-family: 'Gabriela', serif;        
+    color: #5a568e;
+
+}
+.first-p {
+    font-size: 48px;
+    float: left;
+}
+
+.second-p  {
+    font-size: 16px;
+    float: right;
+    width: 30vw;
+}
+.more{
+    text-decoration: none;
+    background-color: transparent;
+    border-color: #f9694f;
+    border: 1px solid#f9694f;
+    padding: 20px 30px;
+}
+.more i {
+    color: red;
+}
+.bullet {
+    background-color: gainsboro;
+    border: 1px solid transparent;
+    margin-right: 30px;
+    padding: 7px;
+    border-radius: 100%;
+}
+.bullet:hover{
+    color: #f9694f;
+    border: 10px solid red;
+    border-radius: 100%;
+}
+.checked {
+    border: 10px solid red;
+    border-radius: 100%;
+}
+
+
+/* Helper */
+
+
+
+
